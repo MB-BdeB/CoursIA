@@ -1,0 +1,2 @@
+{"sensor_id": "TEMP_C1","timestamp": "2025-05-26T14:00:00Z","temperature_c": 19.8,"humidity_pct": 60.0,"co2_ppm": 380} 
+{"sensor_id": "TEMP_C2","timestamp": "2025-05-26T14:05:00Z","temperature_c": 20.0,"humidity_pct": 59.5,"co2_ppm": 382}

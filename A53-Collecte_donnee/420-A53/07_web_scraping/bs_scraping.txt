@@ -1,0 +1,27 @@
+import requests
+from bs4 import BeautifulSoup
+import lxml
+#CrÃ©er une url
+url = "http://www.dataquest.io"
+
+#Obtenir le contenu
+contenu = requests.get(url)
+
+print(contenu)
+html_contenu = contenu.text
+#print(html_contenu)
+
+#Conversion du contenu en element BeautifulSoup
+#soupe = BeautifulSoup(html_contenu, 'lxml')
+soupe = BeautifulSoup(html_contenu, 'html.parser')
+
+#Afficher le contenu de la balise <title>
+print(soupe.title)
+
+#afficher le contenu du texte dans <title>
+print(soupe.title.string)
+
+print("=" * 45)
+#Afficher le texte de tous les liens <a>
+for adresse in soupe.find_all('a')[0:5] :
+    print(adresse)

@@ -1,0 +1,6 @@
+--Ajouter à la fin de votre fichier yaml ces instructions afin de recuperer les fichiers
+git config --global user.email "toto@gmail.com"
+git config --global user.name "toto"
+git add reports.md metrics.txt
+git commit -m "pousser vers github repository"
+git push origin HEAD:master

@@ -1,0 +1,3 @@
+https://developers.google.com/machine-learning/data-prep/construct/construct-intro
+
+https://www.altexsoft.com/blog/datascience/preparing-your-dataset-for-machine-learning-8-basic-techniques-that-make-your-data-better/

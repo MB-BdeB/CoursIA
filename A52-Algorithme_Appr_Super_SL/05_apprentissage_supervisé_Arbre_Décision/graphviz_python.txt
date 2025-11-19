@@ -1,0 +1,23 @@
+#Visualisation de l'arbre
+#pip install graphviz
+#pip install pydotplus
+#ou utiliser anaconda navigator
+
+from sklearn.tree import export_graphviz
+from sklearn.externals.six import StringIO  
+from IPython.display import Image  
+import pydotplus
+
+import os     
+
+os.environ["PATH"] += os.pathsep + 'C:\\Users\\HBenteftifa\\AppData\\Local\\conda\\conda\\pkgs\graphviz-2.38-hfd603c8_2\\Library\\bin\\graphviz'
+
+dot_data = StringIO()
+feature_cols = ["Clump_Thickness","Uniformity_Cell_Size","Uniformity_Cell_Shape","Marginal_Adhesion",
+                "Single_Epithelial_Cell_Size","Bare_Nuclei","Bland_Chromatin","Normal_Nucleoli","Mitoses"]
+export_graphviz(classifier, out_file=dot_data,  
+                filled=True, rounded=True,
+                special_characters=True,feature_names = feature_cols,class_names=['2','4'])
+graph = pydotplus.graph_from_dot_data(dot_data.getvalue())  
+graph.write_png('student.png')
+Image(graph.create_png())

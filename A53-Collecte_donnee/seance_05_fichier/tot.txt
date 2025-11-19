@@ -1,0 +1,4 @@
+10 dix
+20 vingt
+30 trente
+40 quarante

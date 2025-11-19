@@ -1,0 +1,27 @@
+import requests
+
+# This script fetches contact data from a given URL and prints the response.
+uri = "https://www.degenio.com/html5/contacts.json"
+response = requests.get(uri)
+
+# Print contact details
+def print_contacts():
+    data = response.json()
+    print ("Contact Details:\n" + "=" * 40)
+    contacts = data.get("contacts", [])
+    print(f"Total Contacts: {len(contacts)}\n")
+    for contact in contacts:
+        print(f"ID: {contact['id']}")
+        print(f"Name: {contact['name']}")
+        print(f"Email: {contact['email']}")
+        print(f"Address: {contact['address']}")
+        print(f"Gender: {contact['gender']}")
+        print("Phone Numbers:")
+        print(f"  Mobile: {contact['phone']['mobile']}")
+        print(f"  Home: {contact['phone']['home']}")
+        print(f"  Office: {contact['phone']['office']}")
+        print("-" * 40)
+
+# Run the function
+if __name__ == "__main__":
+    print_contacts()

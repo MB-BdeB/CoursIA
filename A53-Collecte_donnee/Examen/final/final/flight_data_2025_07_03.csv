@@ -1,0 +1,5 @@
+flight_id,departure_airport,arrival_airport,flight_duration_minutes,passenger_count,departure_time
+FL125,CDG,SFO,660,255,2025-07-03 07:30:00
+FL458,LHR,SIN,790,310,2025-07-03 10:15:00
+FL791,NRT,LHR,700,220,2025-07-03 14:00:00
+FL103,AMS,JFK,450,230,2025-07-03 16:00:00

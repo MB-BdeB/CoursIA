@@ -1,0 +1,9 @@
+find
+balise: "span" 
+attrs: class: "wxo-metric-hide"
+
+balise: "h1" 
+attrs: id:"wb-cont"
+
+balise: div
+attrs: class :"col-xs-12"
