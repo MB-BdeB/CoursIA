@@ -1,0 +1,6 @@
+{
+  "git.enabled": true,
+  "git.ignoreMissingGitWarning": true,
+  "git.autorefresh": true,
+  "extensions.recommendations": []
+}
