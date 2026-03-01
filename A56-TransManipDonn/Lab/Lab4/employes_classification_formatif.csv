@@ -1,0 +1,421 @@
+ID,Nom ,Âge,Salaire,Date Embauche,Note performance,Durée contrat,Départ
+121,David ,56,35 795€,11 July 2017,5,douze mois,0
+15,JACQUES, 60 ,96820$,12/04/2019,2,douze mois,1
+57,Benjamin,36,57194euros,2019.03.14,3,365 jours,0
+204,Emmanuel ,53,80263 €,2020/09/15,4,1 an,0
+330,Cécile,39,84820 €,2016.11.24,5,365 jours,0
+220,Noël,61,84925 €,20 July 2015,2,douze mois,0
+185,Hortense,cinquante,25311$,2019/02/27,5,12 mois,0
+55,Marcel,50,73707$,2017/11/28,3,365 jours,0
+96,Anne,61,113016$,2021.07.05,2,1 an,0
+146,Lucas,59,38431 €,2016-11-18,2,1 an,1
+72,Jérôme,cinquante,79150 €,17/05/2024,3,1 année,0
+32,Alix,64,55773 €,24 June 2015,2,douze mois,0
+105,Alex,20,89092euros,2022-07-08,3,12 mois,1
+315,Nicolas ,38,100 038€,June 2018,1,1 année,0
+62,Jean,42,93 969€,20 April 2016,3,douze mois,0
+85,Daniel,43,88 148€,14 March 2020,2,365 jours,1
+259,Martin,45,43483$,11/07/2018,2,365 jours,0
+21,Victor, 25 ,100077 €,December 2018,3,12 mois,0
+86,Eugène,57,109475$,2017.03.18,3,12 mois,0
+327,JULIE, 23 ,98953$,29/09/2024,3,1 année,0
+246,Marguerite ,46,65758$,2023.01.12,4,1 an,0
+196,Jeannine,61,85697euros,2024-12-29,3,1 an,0
+259,Joseph,53,52 606€,11 November 2019,5,12 mois,0
+283,Madeleine,trente,114663 €,07 November 2017,3,1 année,0
+309,Sébastien ,57,109812euros,27/11/2023,3,1 année,0
+209,Alix ,quarante-cinq,94065 €,March 2023,3,1 année,0
+194,Caroline, 41 ,32185euros,11 December 2020,5,365 jours,0
+317,Juliette ,62,58044$,February 2023,4,1 an,0
+160,Thierry,18,68 984€,2016-10-25,5,douze mois,0
+174,Laurence,41,82592euros,November 2018,2,1 an,0
+43,Audrey,quarante-cinq,68190 €,March 2016,4,365 jours,0
+299,Richard,34,53159$,27/02/2022,4,365 jours,0
+87,Daniel , 50 ,32666 €,2020-07-23,1,12 mois,1
+318,Margot,56,84 505€,20/10/2023,2,12 mois,0
+47,Nath,24,28392$,2021.12.23,3,douze mois,1
+30,PÉNÉLOPE,cinquante,72256 €,2019/01/16,1,1 an,1
+316,Anne,40,97373euros,2017/07/08,3,12 mois,0
+292,FRANCK,52,104 651€,2016-08-22,3,douze mois,0
+187,Rémy,44,90592 €,2016/01/07,3,1 an,0
+191,Bertrand,64,99 309€,24 February 2023,4,douze mois,0
+23,Claude,22,118 806€,25 November 2022,4,douze mois,0
+139,Alex,56,20206 €,2022.03.27,3,1 année,0
+6,jules,59,43 419€,2021-08-02,2,365 jours,0
+231,Colette,49,74268euros,2020.12.30,3,12 mois,0
+112,Zacharie, 47 ,100356 €,2021.04.20,2,douze mois,0
+85,Aimé ,62,87 214€,2020/01/04,4,1 an,0
+82,Agathe,53,75820$,08/02/2025,1,1 an,0
+199,Benjamin,cinquante,95450 €,October 2017,3,1 an,0
+244,Constance,45,63585$,17/10/2019,3,1 année,0
+86,Clémence,23,115003euros,2017/02/21,4,365 jours,0
+344,Aurore,61,45939 €,2021-04-10,4,12 mois,0
+288,Anouk, 28 ,38047euros,2016/06/24,4,365 jours,1
+293,Gilles,45,41 976€,15 February 2018,3,1 année,0
+161,ADÉLAÏDE,50,50080$,2018/09/25,2,1 année,0
+114,CHRISTELLE,30,75016 €,27 December 2016,3,12 mois,0
+33,Olivier,23,41959 €,2017.08.16,3,1 an,0
+324,Christelle,54,117504 €,May 2018,2,douze mois,0
+180,Sylvie,61,86199 €,April 2021,5,1 année,0
+16,Agnès,49,115839$,29 April 2021,3,12 mois,0
+336,André,trente,74384 €,08/04/2023,1,1 an,0
+192,Sabine ,29,72 733€,January 2017,3,1 année,0
+26,Margot,20,43664$,31 August 2019,2,12 mois,1
+33,Geneviève,34,46736euros,2023-05-01,5,douze mois,0
+65,Françoise,45,20854 €,May 2019,2,douze mois,1
+69,Jean,50,75680$,05 September 2023,2,1 année,0
+193,Nicolas,19,107092euros,28 July 2016,3,1 an,0
+19,Arthur ,49,46309 €,2020.06.12,2,12 mois,0
+69,Zacharie, 21 ,72662euros,2023/06/14,4,douze mois,0
+68,Adrienne ,34,45 342€,2023.07.30,4,1 année,0
+143,Simone,22,72083euros,2018.02.25,5,douze mois,0
+299,Hugues,39,54698euros,2019/07/16,4,1 année,0
+15,Aurélie,33,45184euros,2022.05.28,2,douze mois,0
+140,Susanne ,23,71663$,2018-04-11,1,365 jours,1
+224,Margaud,37,22811euros,2016/12/05,3,12 mois,0
+47,michel,36,54 754€,23 November 2020,4,12 mois,0
+236,Antoine,trente,31411$,21/09/2024,3,1 année,0
+320,Dorothée,58,104896$,2016.07.10,3,douze mois,0
+136,Patrick,56,31 111€,2017/05/19,2,douze mois,1
+116,Antoine, 45 ,93656$,2017-12-25,2,365 jours,0
+264,Gabriel,40,41918 €,2024.04.25,4,1 année,0
+322,Inès , 52 ,36646euros,December 2022,3,12 mois,0
+112,Vincent,43,110735$,19 January 2021,3,douze mois,0
+341,Dorothée,19,51616euros,01 July 2023,1,douze mois,1
+285,Madeleine,quarante-cinq,40932$,December 2023,5,douze mois,0
+205,anouk,26,27400$,2017/02/01,3,365 jours,1
+95,Paulette, 33 ,86690$,2024-10-31,4,1 an,0
+325,Hélène,50,32183euros,April 2023,4,12 mois,0
+95,THÉODORE,25,25539 €,13 April 2020,4,douze mois,1
+220,Lorraine,37,68354 €,22 June 2017,3,1 année,0
+292,Pauline,42,102018$,19/10/2020,5,1 an,0
+218,Michelle,35,66 975€,26/10/2016,3,365 jours,0
+171,Grégoire ,cinquante,97505$,2024/09/02,3,12 mois,0
+95,Philippine,33,70108euros,2021-08-17,2,12 mois,1
+205,Henri, 50 ,58467euros,2015-09-08,2,12 mois,0
+323,Virginie , 38 ,106831$,2017.12.11,4,365 jours,0
+168,SABINE,25,66214euros,2018.05.03,4,douze mois,0
+155,Constance,50,90091euros,2025/05/08,3,douze mois,0
+252,Philippine,39,39830$,2016/09/06,2,12 mois,1
+230,Dorothée ,trente,99909euros,November 2017,5,douze mois,0
+151,François ,25,39738euros,2016-12-18,3,1 an,1
+118,Louise,38,74045euros,2018-02-04,3,douze mois,0
+105,Adrien ,64,25 600€,02/06/2024,2,365 jours,1
+192,Odette,36,76835 €,24 October 2016,1,1 année,1
+163,Paulette,trente,93744euros,04 October 2021,5,365 jours,0
+312,Agnès ,47,63 484€,04 June 2020,2,365 jours,1
+124,Laurence,23,67202 €,09/12/2018,4,douze mois,0
+254,Astrid,54,38711 €,15 December 2017,3,12 mois,0
+206,Anastasie,63,65 236€,December 2019,3,12 mois,0
+251,Bertrand,50,85 726€,31 August 2016,3,douze mois,0
+284,Tristan ,49,26102euros,04 November 2023,2,1 année,1
+121,Zoé,20,46641euros,2022-12-10,3,12 mois,0
+261,Gabriel,48,43093euros,2022-03-04,3,1 an,0
+303,Matthieu,57,71885euros,18 June 2020,1,365 jours,0
+252,Stéphanie,49,24014$,July 2019,5,1 an,0
+259,Paul,19,76958euros,2025/01/30,3,douze mois,1
+149,Camille ,19,65017euros,01/08/2021,4,1 année,0
+168,Élodie,50,98069 €,12/03/2018,3,1 an,0
+30,Gérard,cinquante,74748euros,01 October 2016,2,1 année,0
+166,Adrienne,43,70 993€,21/10/2019,4,douze mois,0
+294,Olivie, 30 ,108891euros,2016-07-19,3,1 an,0
+198,Henriette,53,90316 €,2018.07.05,2,1 année,1
+6,François,25,26655 €,13 October 2019,3,1 année,1
+88,Christophe ,cinquante,96429 €,05/09/2022,4,12 mois,0
+89,Susanne ,40,33403euros,07/10/2016,3,365 jours,0
+301,Thibaut ,49,30966 €,August 2015,3,1 an,0
+181,Olivie,42,72921euros,2021.06.14,3,1 an,0
+136,Audrey,39,75 609€,September 2016,4,365 jours,0
+67,Brigitte ,59,73006 €,29 March 2022,3,1 année,0
+250,Roland,54,100 135€,17/12/2017,4,1 année,0
+244,Agathe,61,68747euros,2019/11/27,3,12 mois,0
+67,Inès,cinquante,107235euros,2017/05/13,4,1 an,0
+189,Marcelle,49,76179$,25 April 2023,3,12 mois,0
+52,Éléonore,52,59734$,2025-05-10,2,365 jours,0
+212,Stéphanie,33,114476 €,2017.10.19,5,douze mois,0
+181,Marcelle,59,103613 €,15 March 2022,1,365 jours,0
+319,michèle,36,48251euros,2021.03.23,4,365 jours,0
+207,NOËL,43,110 852€,November 2022,2,365 jours,0
+262,Bertrand,40,21 150€,08 December 2022,3,1 an,0
+142,Rémy,18,86 617€,30 January 2017,5,1 année,0
+58,Élise,64,66175 €,April 2021,3,12 mois,0
+289,GILBERT,42,65543euros,2016/01/04,5,douze mois,0
+229,Dominique, 18 ,23343euros,2021.06.04,3,1 année,1
+253,Thibaut,22,79638$,2017/08/18,1,12 mois,1
+343,Margot, 43 ,87215 €,08/12/2015,2,12 mois,0
+247,christiane,39,104 664€,2016-03-07,3,365 jours,0
+25,Christiane , 45 ,74340$,2021.11.04,1,1 an,0
+157,Arthur,47,115981 €,17/12/2020,5,1 an,0
+82,Claire,22,115435 €,03/05/2022,1,douze mois,1
+187,Aurélie ,cinquante,55247euros,2021.11.06,4,12 mois,0
+82,Christine,53,82752$,2019.07.01,3,12 mois,0
+116,Émile,54,46 646€,2021-08-05,1,1 année,0
+249,Lucy,22,117 379€,2017/04/16,1,douze mois,1
+285,Marcel ,48,85417 €,December 2023,3,douze mois,0
+328,Catherine,cinquante,29 823€,25 October 2023,4,douze mois,0
+282,Bertrand,22,36364euros,November 2017,2,1 année,1
+3,Jérôme,41,77679euros,2022-06-21,3,12 mois,0
+344,Roger ,cinquante,114704 €,28/03/2024,4,douze mois,0
+115,ÉDITH,49,80 890€,January 2018,4,365 jours,0
+157,Mathilde, 29 ,92369 €,2016.06.26,3,365 jours,0
+31,Amélie,50,24 000€,2024/12/11,4,douze mois,0
+156,Guillaume,60,117 856€,2016.08.24,5,365 jours,0
+30,FRÉDÉRIQUE,27,102986 €,2023/11/06,2,12 mois,1
+307,Jean , 30 ,106 027€,2019-05-12,2,douze mois,0
+177,Frédérique,19,117 532€,2024-03-27,1,1 an,1
+227,Tristan,52,47350euros,2015.08.16,1,1 année,0
+143,Gilbert,25,108668euros,2016.04.01,4,365 jours,0
+321,CÉLINA,43,96 797€,09/07/2022,4,365 jours,0
+203,Agathe,58,40358euros,29 November 2016,2,1 année,0
+105,Maryse,62,31338 €,2019-02-07,4,1 année,1
+12,Patrick ,trente,53496 €,2023.01.17,4,1 année,0
+80,Édith, 53 ,64425 €,10/07/2021,3,douze mois,0
+222,Nicolas,41,67295euros,2017.04.19,3,1 année,0
+28,Thierry,52,105999$,2017-02-08,2,douze mois,0
+230,Christiane,56,54911$,27/04/2024,3,12 mois,0
+10,Claude ,49,81 476€,21/03/2016,2,1 année,0
+77,Richard,30,63286 €,29 December 2018,4,365 jours,0
+156,Jeanne ,58,75069 €,2022.10.15,5,12 mois,0
+260,Élise , 37 ,66959 €,2022/06/18,3,12 mois,0
+8,théodore,30,86 234€,January 2022,1,douze mois,0
+20,Camille, 53 ,36 779€,2024/07/26,5,12 mois,0
+300,Thibaut ,36,56939euros,2016.03.30,3,douze mois,0
+58,David,45,102 637€,07 February 2017,3,365 jours,0
+99,EMMANUELLE,cinquante,52307euros,2024/07/15,3,365 jours,0
+323,Tristan,64,28335$,2020/07/26,3,365 jours,0
+185,Laurent,52,109112 €,2025.02.18,3,1 année,0
+107,William,38,80 566€,15 December 2019,4,1 année,0
+22,Geneviève ,56,104076 €,September 2021,5,1 an,0
+109,Odette ,trente,41 689€,24 January 2022,1,365 jours,0
+80,Agathe,48,29348$,12 January 2018,4,1 année,0
+236,GENEVIÈVE,46,109930euros,2022.03.29,2,365 jours,0
+184,André,29,68136euros,13/12/2024,4,365 jours,0
+168,Marie,61,92592euros,29/03/2021,2,1 an,0
+299,Laurent ,24,41677 €,2022.12.05,4,12 mois,0
+56,Roger,trente,59081 €,June 2023,3,douze mois,0
+303,Bernadette,44,39065 €,2018-07-30,2,1 année,1
+197,DANIELLE,46,74 693€,2020/04/27,5,1 an,0
+322,HONORÉ,62,46432 €,15/06/2020,4,1 an,0
+350,JÉRÔME,34,77854$,23 May 2017,5,1 année,0
+149,Nicolas ,quarante-cinq,21324$,20/06/2024,4,douze mois,0
+39,Lucy,23,109 339€,2017-10-07,1,1 an,1
+11,Roland,61,46 790€,21 February 2019,3,douze mois,0
+92,Odette,quarante-cinq,75129$,2023.11.30,3,1 année,0
+239,François,20,106 188€,July 2024,1,1 année,1
+18,CAPUCINE,45,23 709€,2017/02/03,1,12 mois,1
+313,Céline,45,77799 €,05/05/2023,2,12 mois,0
+36,Sophie,58,62918euros,29 May 2017,4,1 an,0
+288,Michelle ,30,100219 €,15/08/2016,5,12 mois,0
+158,Michèle,42,53591euros,2017/07/30,3,12 mois,0
+208,Christophe ,23,87641 €,2021/06/15,1,12 mois,1
+327,Anne,49,42700 €,19/03/2017,1,1 année,1
+108,Claire, 38 ,40559euros,2021-07-29,3,1 année,0
+223,Aimé, 28 ,96539 €,2024/06/10,1,1 année,1
+17,Nathalie, 52 ,50354 €,2022.07.01,5,1 année,0
+175,Caroline,cinquante,91726euros,2024/04/08,3,douze mois,0
+4,Dorothée,31,72638euros,2022-08-15,5,1 an,0
+4,CHRISTOPHE,20,39087euros,2021.09.07,4,12 mois,1
+202,Roger,28,98859$,2019.02.08,5,365 jours,0
+331,Nicole,33,41447euros,2021.04.20,3,1 année,0
+311,Éléonore ,41,86203$,2024.03.25,3,365 jours,0
+138,Suzanne, 45 ,81529$,12 August 2018,3,1 année,0
+153,Aimé,45,47 355€,2017.10.06,3,douze mois,0
+84,Julien,53,40159$,2025/05/31,3,douze mois,0
+199,Marthe,34,58088 €,2019.01.16,3,douze mois,0
+229,Franck, 37 ,55547 €,July 2016,2,1 année,0
+251,Dorothée,quarante-cinq,47 532€,September 2021,5,1 année,0
+148,Margaud,23,25713$,25/04/2022,3,1 année,1
+277,Claudine,22,70990$,2015/10/16,5,1 an,0
+302,Astrid,27,104791 €,29/05/2022,4,365 jours,0
+333,Anaïs ,62,57892$,26/10/2023,1,douze mois,0
+180,Victoire,50,81 813€,2021-09-13,4,12 mois,0
+262,Agnès,49,82 292€,May 2020,4,douze mois,0
+194,Françoise,42,40309 €,September 2017,4,12 mois,0
+74,Mathilde ,30,40384 €,2020.04.09,3,1 an,0
+215,Luc,52,28702$,2023/06/09,2,douze mois,1
+348,Françoise,23,32 763€,2019-02-06,4,365 jours,1
+256,Sophie,48,29860 €,2020.09.09,5,365 jours,1
+181,Denise ,40,43524 €,October 2015,4,12 mois,0
+313,THÉODORE,27,52201$,15/06/2021,3,douze mois,0
+65,Anouk ,38,76397euros,2023/10/08,2,douze mois,0
+95,CÉCILE,18,65106 €,31 March 2023,2,365 jours,1
+122,Benjamin,21,41949 €,2020-01-16,4,1 année,0
+192,Cécile,57,112 193€,29/11/2017,3,12 mois,0
+20,Émile,25,34489$,2016.04.26,3,douze mois,1
+117,Lucie ,cinquante,81877 €,November 2021,4,douze mois,0
+347,Françoise,29,62944$,September 2016,3,douze mois,0
+110,Alexandria,22,44285 €,November 2021,4,12 mois,0
+3,Jérôme,34,73 871€,2017.07.28,3,1 année,0
+26,Cécile,40,64 238€,2025.05.12,4,1 année,0
+82,Josette,31,57441$,2020-02-29,4,douze mois,0
+101,Marcel ,quarante-cinq,79494euros,20/04/2025,2,1 année,0
+307,Claudine,51,26 949€,29 January 2023,3,1 an,0
+219,Michelle,35,26941$,January 2022,3,douze mois,1
+128,Véronique,51,103251 €,2017.12.18,3,1 année,0
+176,Franck,50,117239 €,2023/06/07,5,1 an,0
+37,Denis,47,90390 €,2021/08/23,3,12 mois,0
+50,Eugène,34,59811$,2022/05/14,3,12 mois,0
+227,Richard,34,107369euros,11/06/2019,4,1 an,0
+150,Astrid,37,112705$,26/04/2019,3,12 mois,0
+247,René,quarante-cinq,25569 €,02 December 2022,3,1 année,0
+140,jean,60,32015euros,17 May 2021,3,1 année,1
+87,Franck ,64,37 144€,2022-06-25,3,douze mois,0
+72,Clémence,trente,100719euros,18/01/2018,2,12 mois,0
+214,Sabine,33,44071 €,2020-03-30,2,12 mois,0
+32,Charlotte,21,61240euros,03/02/2021,4,douze mois,0
+58,Alex ,20,53434euros,03 December 2019,3,365 jours,0
+58,William ,36,77108$,18/03/2020,2,douze mois,0
+171,Bernard, 45 ,56 668€,01/11/2016,1,1 an,0
+275,maggie,23,36907 €,2016/07/28,2,365 jours,1
+128,Benjamin,51,111 865€,July 2023,3,365 jours,0
+194,Hélène,26,43 321€,22 April 2019,4,365 jours,0
+333,Anastasie,39,30478 €,July 2020,3,douze mois,0
+266,Olivie,60,39 262€,2019.06.10,3,1 année,0
+1,Thibault,34,115257$,2024.10.24,4,douze mois,0
+171,Emmanuelle,25,99714euros,2024-11-28,2,douze mois,1
+4,Olivier ,32,20 302€,2018.07.03,3,1 année,0
+277,luc, 39 ,28717$,2018.05.24,3,12 mois,0
+155,CAPUCINE, 40 ,87 661€,2020-10-28,3,1 année,0
+292,ANDRÉE,62,24621euros,2018/04/23,2,1 année,1
+45,Josette,cinquante,25126$,05 July 2018,3,365 jours,1
+14,Marc,40,104 717€,2019-04-02,4,365 jours,0
+207,Dorothée,62,108869euros,2019/08/03,3,1 an,0
+82,Andrée,32,66271euros,2021.07.11,2,12 mois,0
+305,Amélie ,54,30 267€,13/12/2016,1,12 mois,1
+154,Nath, 34 ,115462 €,03/06/2020,1,douze mois,0
+81,Margot,61,24632$,28 April 2022,4,douze mois,0
+258,valentine,37,26168$,13 August 2023,3,1 année,1
+202,Célina ,20,102152euros,2016.10.29,3,365 jours,0
+115,Valentine,64,26371$,18/01/2023,3,365 jours,1
+217,Aimé , 51 ,32910euros,April 2017,4,douze mois,1
+54,Bertrand, 61 ,92274euros,2021/10/20,3,12 mois,0
+57,danielle,54,82 981€,2018-01-11,4,1 an,0
+162,Rémy,51,95703 €,2019/10/03,3,12 mois,0
+251,Michel ,23,23812euros,26/02/2020,5,douze mois,1
+177,Patricia,39,112436euros,2018.05.22,2,365 jours,0
+198,Sabine,21,97149euros,2018/02/06,2,1 an,1
+293,Isaac,47,33918 €,2022.11.25,1,douze mois,1
+153,Adrienne,26,33046$,April 2017,1,douze mois,1
+219,Aurore,48,24324euros,December 2016,5,1 an,1
+12,Stéphanie,48,36 389€,2018.08.16,3,12 mois,0
+209,Paulette , 45 ,48 746€,April 2018,4,1 an,0
+174,Alexandrie,cinquante,20117euros,2018/05/21,2,12 mois,1
+314,Claire,55,33 234€,2022.10.12,4,douze mois,0
+122,Cécile ,19,20846 €,2021-07-05,3,douze mois,1
+74,Jérôme,43,66 514€,2019.01.28,4,1 an,0
+78,Gérard,22,26 469€,2022/08/24,5,1 année,1
+79,Agathe,21,111 922€,12 June 2025,2,12 mois,1
+161,JULIETTE,37,56 976€,09 April 2025,3,12 mois,0
+215,Marine ,18,98477 €,2025.04.24,2,12 mois,1
+320,Michelle,54,21917euros,2015/10/06,2,12 mois,1
+158,Étienne,53,67362$,2021/05/28,1,12 mois,0
+39,Anastasie,27,102 180€,2022/03/08,1,1 an,1
+129,Bernadette,61,59809euros,11 November 2020,3,1 an,0
+184,gabriel,19,54 387€,April 2024,2,1 an,1
+312,Cécile,54,39216 €,2019-11-25,2,365 jours,1
+323,Michèle,32,99767$,21 October 2023,3,douze mois,0
+170,Gabriel ,52,113 789€,2020-11-07,2,365 jours,0
+228,Dominique,22,116 573€,2020-10-20,4,12 mois,0
+174,Gabriel, 31 ,87444euros,January 2023,4,douze mois,0
+72,zacharie, 26 ,85441 €,November 2019,2,12 mois,1
+188,colette,52,25415$,2024.09.10,4,douze mois,0
+250,Laurent,46,28 007€,22/01/2021,4,1 année,1
+178,Constance,54,50523euros,2023.12.26,2,douze mois,0
+105,Thérèse ,38,35524 €,2017.02.20,4,1 année,1
+70,Roger,31,40611$,2018/05/15,3,365 jours,0
+323,Margaud,59,104056 €,2015/07/10,3,1 année,0
+100,Alphonse,25,95046 €,2020-06-22,4,douze mois,0
+250,Benjamin, 49 ,31954euros,07 March 2023,3,1 an,1
+344,Victor,50,107062euros,10 December 2023,3,1 année,0
+95,Adrien,50,39096euros,2021-09-13,3,1 année,0
+265,Clémence,64,65558euros,2018.09.19,3,12 mois,0
+186,Sophie,57,112 263€,2020-12-12,3,1 an,0
+50,Valérie,cinquante,87506euros,2016/12/15,3,1 année,0
+322,Pauline ,20,116646$,January 2022,4,365 jours,0
+50,Adrienne,59,107 487€,November 2017,2,12 mois,0
+19,mathilde,64,91324 €,2018/09/30,3,365 jours,0
+313,Valentine,47,29446euros,2020/05/31,3,12 mois,0
+338,Françoise,46,30789$,17 May 2024,4,1 an,1
+326,Alphonse,54,52154euros,19 February 2019,4,1 an,0
+43,Jules,21,39029euros,2021.05.27,4,1 année,1
+131,André,22,63 872€,2024.09.22,2,12 mois,1
+58,Margot,30,43710euros,2023.04.19,3,365 jours,0
+317,Adélaïde,62,91895$,03 March 2019,3,365 jours,0
+42,Monique,32,40 103€,26/01/2017,2,365 jours,0
+236,Michelle,64,104291$,August 2023,4,douze mois,0
+143,Alexandre,19,36478$,28/02/2023,3,365 jours,1
+14,Claudine,53,119097$,April 2019,2,douze mois,0
+63,Camille,22,91315euros,30/05/2024,2,12 mois,1
+251,Andrée,trente,34153 €,26/06/2020,3,1 année,1
+293,Sylvie,23,32999 €,2016.04.16,3,365 jours,1
+245,Corinne,43,96077euros,2024-06-27,3,1 an,0
+120,Juliette,43,95916euros,2020-11-23,2,1 an,0
+244,Franck,35,37368euros,15/05/2018,2,douze mois,1
+319,Christiane,quarante-cinq,111751 €,2019.02.17,4,douze mois,0
+345,Hélène,29,59 915€,24/04/2024,3,1 année,0
+242,Paulette,21,84644$,03/08/2016,5,365 jours,0
+215,Arthur,25,20126 €,30 July 2023,2,1 année,1
+94,Nathalie ,45,85310euros,2021.07.19,3,365 jours,0
+23,Maurice,46,64 327€,18 September 2015,4,1 année,0
+34,Jeanne,28,33718euros,29/06/2021,2,1 année,1
+327,Zoé,54,56244euros,2022/03/26,2,12 mois,0
+112,MARIE,53,39 256€,2020-08-29,3,1 an,0
+349,Jeannine ,57,83374$,07 July 2016,3,365 jours,0
+336,Alfred,26,95060 €,15 July 2017,3,1 an,0
+25,ÉRIC,43,33224$,March 2017,2,12 mois,1
+165,Juliette ,42,119929$,2023.05.27,5,1 année,0
+224,MARCEL,19,28070euros,16 August 2019,3,1 an,1
+73,pénélope,51,56368 €,2021/05/20,3,1 an,0
+45,Daniel,61,99 026€,2022.07.07,2,douze mois,0
+162,MADELEINE,42,87526$,12 November 2022,2,1 an,0
+19,Stéphane,41,66240$,2020-05-28,3,douze mois,0
+174,Astrid,60,24 757€,09/04/2016,2,douze mois,1
+115,Laure, 38 ,47696 €,30/06/2016,2,douze mois,1
+349,Valentine ,37,39816$,January 2016,2,1 année,1
+82,Léon,39,116731 €,2019/02/07,3,1 an,0
+343,Frédérique,57,40806euros,2015-12-28,3,12 mois,0
+8,Alix ,30,61949euros,2016.11.18,4,365 jours,0
+225,Léon, 36 ,113501$,2017/06/17,2,12 mois,0
+148,Isaac,46,47952euros,2025.05.24,1,12 mois,1
+2,Geneviève,47,92847euros,2016-07-21,3,1 année,0
+11,Lucas ,35,53536$,2022-03-31,4,12 mois,0
+32,Timothée,64,48865 €,29/09/2024,3,365 jours,0
+274,Laurence,47,58 565€,2018/09/21,4,1 année,0
+113,Franck ,21,75 168€,September 2022,3,1 année,0
+148,Patrick ,56,68770$,2021/10/09,3,12 mois,0
+66,Marcelle, 27 ,95 629€,06/02/2020,3,12 mois,0
+280,Astrid,50,101974euros,03/07/2015,2,365 jours,1
+109,Éléonore,24,101 244€,2018.11.03,3,12 mois,0
+238,Adrien, 20 ,50678euros,2019/07/30,3,365 jours,0
+272,jérôme,25,76373 €,05 September 2022,3,douze mois,0
+221,Olivie,54,92258$,15/10/2020,4,12 mois,0
+124,Laure ,45,99 111€,2020/05/12,1,12 mois,0
+204,Jacqueline,49,107127$,May 2016,4,1 année,0
+283,Stéphane, 63 ,104458$,2018.09.29,5,1 année,0
+329,Julien,trente,74771$,29 January 2018,3,1 année,0
+49,ÉLISABETH,38,106925$,16/10/2024,2,365 jours,0
+123,Noémi,35,26150 €,October 2022,3,365 jours,0
+174,Bernadette,50,22 198€,15/11/2020,4,1 année,0
+289,Émilie,36,33859 €,April 2021,3,365 jours,0
+276,Augustin ,35,28 705€,27/06/2024,5,365 jours,0
+212,Martin, 22 ,107955 €,2024/02/14,3,1 an,0
+207,Augustin ,35,28 705€,27/06/2024,5,365 jours,0
+249,Olivie,42,72921euros,2021.06.14,3,1 an,0
+300,Adrien,50,39096euros,2021-09-13,3,1 année,0
+63,André,22,63 872€,2024.09.22,2,12 mois,1
+301,Thierry,52,105999$,2017-02-08,2,douze mois,0
+310,Monique,32,40 103€,26/01/2017,2,365 jours,0
+51,JÉRÔME,34,77854$,23 May 2017,5,1 année,0
+304,Rémy,51,95703 €,2019/10/03,3,12 mois,0
+40,Laurence,41,82592euros,November 2018,2,1 an,0
+26,Margot,61,24632$,28 April 2022,4,douze mois,0
+270,Claude ,49,81 476€,21/03/2016,2,1 année,0
+302,Valentine ,37,39816$,January 2016,2,1 année,1
+245,Agathe,48,29348$,12 January 2018,4,1 année,0
+215,Margaud,59,104056 €,2015/07/10,3,1 année,0
+337,Constance,54,50523euros,2023.12.26,2,douze mois,0
+297,Astrid,27,104791 €,29/05/2022,4,365 jours,0
+31,Laure, 38 ,47696 €,30/06/2016,2,douze mois,0
+167,Noël,61,84925 €,20 July 2015,2,douze mois,0
+200,Antoine, 45 ,93656$,2017-12-25,2,365 jours,0
+51,Franck, 37 ,55547 €,July 2016,2,1 année,0
