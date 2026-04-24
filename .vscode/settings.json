@@ -2,5 +2,6 @@
   "git.enabled": true,
   "git.ignoreMissingGitWarning": true,
   "git.autorefresh": true,
-  "extensions.recommendations": []
+  "extensions.recommendations": [],
+  "python-envs.defaultEnvManager": "ms-python.python:system"
 }

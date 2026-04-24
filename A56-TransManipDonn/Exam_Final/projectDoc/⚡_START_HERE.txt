@@ -1,0 +1,98 @@
+# ⚡ QUICK REFERENCE
+
+## 📦 TES FICHIERS (17) SONT PRÊTS
+
+### Lire CECI d'abord (2 min)
+```
+PROJET_TERMINÉ.md          ← Tu es ici! Résumé final
+RÉSUMÉ_FINAL.md            ← Vue d'ensemble complète
+```
+
+### Graphiques (Voir CECI)
+```
+1_metrics_comparison.png    ← Comparer 4 modèles
+2_class_distribution.png    ← Déséquilibre des classes
+3_f1_by_class.png          ← Performance par classe
+4_confusion_matrix.png      ← Erreurs du meilleur modèle
+5_summary_table.png         ← Tableau récapitulatif
+sentiment_comparison.png    ← Vue globale
+```
+
+### Code à Utiliser
+```
+quick_start.py              ← Copy-paste (plus rapide)
+sentiment_classifier.py     ← Complet + commenté
+generate_visualizations.py  ← Créer les graphiques
+sentiment_classifier_pipeline.pkl ← Modèle ML sauvegardé
+```
+
+### Rapports Détaillés
+```
+RAPPORT_SENTIMENT_CLASSIFIER.md    ← Technique complet
+GUIDE_COMPLET.md                   ← Avec améliorations
+INDEX.md                           ← Navigation complète
+```
+
+---
+
+## 🎯 MEILLEUR RÉSULTAT
+
+```
+SelectKBest χ² (MEILLEUR)
+├─ Accuracy: 87.90%
+├─ Precision: 86.47%
+├─ Recall: 87.90%
+└─ F1-Score: 86.96% ✅
+```
+
+---
+
+## 3️⃣ FAÇONS RAPIDES D'UTILISER
+
+### 1️⃣ Prédiction en 2 lignes
+```python
+import joblib
+pipeline = joblib.load('sentiment_classifier_pipeline.pkl')
+print(pipeline.predict(["I hate this!"]))  # 0=Hate, 1=Offensive, 2=Neither
+```
+
+### 2️⃣ Reproduire l'analyse (2 min)
+```bash
+python sentiment_classifier.py
+```
+
+### 3️⃣ Adapter le code
+```bash
+# Copier quick_start.py
+# Modifier les paramètres
+# Exécuter
+```
+
+---
+
+## 📊 EN CHIFFRES
+
+```
+Dataset:          24,783 tweets
+Classes:          3 (Hate, Offensive, Neither)
+Déséquilibre:     13.42x
+Features initiales: 9,573
+Features après SelectKBest: 5,000
+Accuracy max:     87.90%
+F1-Score max:     0.8696
+```
+
+---
+
+## ✅ CHECKLIST
+
+- [x] Code Python écrit et testé
+- [x] Modèle ML créé et sauvegardé
+- [x] 6 graphiques PNG générés
+- [x] 4 rapports Markdown rédigés
+- [x] Résultats reproductibles (random_state=42)
+- [x] Tous les fichiers documentés
+
+---
+
+**Prêt? Consulte INDEX.md pour naviguer! 🚀**
