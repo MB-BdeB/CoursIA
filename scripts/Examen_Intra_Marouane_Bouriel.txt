@@ -1,0 +1,290 @@
+AEC · Spécialisation technique en Intelligence Artificielle
+Mise en place d'un écosystème d'IA — 420-A57-BB
+EXAMEN INTRA
+Important : la partie pratique (50 pts) exige des résultats personnels à votre session Colab. Chaque étudiant obtient des valeurs différentes (température GPU, timings, résultats aléatoires). Les réponses copiées seront identifiées et sanctionnées.
+Partie A — QCM (25 points)
+Instructions : Une seule réponse correcte par question. Encerclez la lettre. (2,5 points par question)
+1. Quel outil versionne les datasets (et non le code) dans un projet IA ?
+A) Git
+B) DVC (Data Version Control)
+C) Jenkins
+D) Docker
+2. Quel est le ratio recommandé de cœurs CPU par GPU ?
+A) 1 cœur par GPU
+B) 2 cœurs par GPU
+C) 4 à 8 cœurs par GPU
+D) 32 cœurs par GPU
+3. Quelles sont les 3 couches logicielles GPU dans le bon ordre ?
+A) CUDA → Driver → cuDNN
+B) Driver → CUDA → cuDNN
+C) Python → PyTorch → CUDA
+D) cuDNN → Driver → CUDA
+4. Pourquoi Linux est-il préféré pour les serveurs IA en production ?
+A) Meilleure interface graphique
+B) Gratuit, stable, compatible CUDA nativement
+C) Plus facile pour les débutants
+D) Consomme plus de RAM
+5. Quel framework est le standard de facto pour la recherche en IA ?
+A) Scikit-learn
+B) TensorFlow
+C) PyTorch
+D) Caffe
+6. Quelle est la différence fondamentale entre une VM et un conteneur Docker ?
+A) Une VM est plus légère
+B) Un conteneur partage le noyau, une VM a son propre OS
+C) Un conteneur a son propre OS complet
+D) Aucune différence
+7. Quel modèle de service cloud correspond à Google Colab ?
+A) IaaS
+B) PaaS
+C) SaaS
+D) FaaS
+8. Quel avantage principal a Spark par rapport à Hadoop MapReduce ?
+A) Spark est payant donc plus fiable
+B) Spark travaille en mémoire RAM, jusqu'à 100× plus rapide
+C) Spark ne nécessite pas de cluster
+D) MapReduce est plus récent
+9. Quel est l'avantage principal de Docker pour l'IA ?
+A) Accélère les calculs GPU de 50%
+B) Garantit la reproductibilité (même environnement partout)
+C) Remplace Python
+D) Rend les GPU moins chers
+10. Peut-on entraîner un modèle Deep Learning en serverless (AWS Lambda) ?
+A) Oui, c'est le meilleur moyen
+B) Non, car le serverless n'a pas de GPU et est limité à 15 min
+C) Oui, mais seulement avec TensorFlow
+D) Non, car Lambda ne supporte pas Python
+Partie B — Associations et comparaison GPU (25 points)
+Exercice B1 — Associez outil → rôle (8 points)
+Écrivez le numéro du rôle correspondant à chaque outil.
+Exercice B2 — Comparaison GPU (10 points)
+Tableau de référence :
+B2a. Budget étudiant 400 $ → quel GPU ? (2 pts)
+A) RTX 3060
+B) RTX 4090
+C) A100
+D) Tesla T4
+B2b. Pourquoi le Tesla T4 est-il gratuit sur Colab ? (2 pts)
+A) Parce qu'il est très ancien
+B) Google le fournit gratuitement comme service PaaS pour attirer les utilisateurs
+C) Parce qu'il ne fonctionne pas bien
+D) Parce qu'il n'a pas de VRAM
+B2c. 2× RTX 4090 (450W) + CPU (170W) + reste (100W) = quelle alimentation ? (2 pts)
+A) 500W
+B) 850W
+C) 1200W
+D) 2000W
+B2d. Pourquoi l'A100 a 80 Go de VRAM vs 24 Go pour la RTX 4090 ? (2 pts)
+A) L'A100 est plus récente
+B) L'A100 est conçue pour des modèles très grands (LLM) qui ne tiennent pas dans 24 Go
+C) La RTX 4090 est défectueuse
+D) La VRAM n'a aucune importance
+B2e. Quel GPU de ce tableau utilisez-vous pendant cet examen sur Colab ? (2 pts)
+A) RTX 3060
+B) RTX 4090
+C) A100
+D) Tesla T4
+Exercice B3 — Vrai ou Faux (2 points)
+Encerclez V ou F. (0.5pt point par réponse)
+Exercice B4 — Commandes Linux dans Colab (5 points)
+Exécutez les commandes suivantes dans des cellules Colab (avec le préfixe !) et notez ce que chacune affiche :
+# Cellule 1 : Quel OS utilise Colab ?
+!cat /etc/os-release | head -3
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+# Cellule 2 : Informations GPU
+!nvidia-smi --query-gpu=name,temperature.gpu,memory.total --format=csv,noheader
+Tesla T4, 45, 15360 MiB
+# Cellule 3 : Espace disque disponible
+!df -h / | tail -1
+overlay         113G   44G   70G  39% /
+Partie C — Pratique Colab : Système et GPU (20 points)
+Instructions : ouvrez Google Colab, créez un notebook, activez le GPU. Réalisez les tâches ci-dessous. Vos résultats sont PERSONNELS à votre session — copiez-les dans ce document.
+C1 — Identifier votre environnement (8 points)
+Vous devez trouver les informations suivantes en utilisant les commandes appropriées. Les commandes ne sont PAS fournies — c'est à vous de les trouver.
+Tâche C1.1 : Trouvez le nom et la version du système d'exploitation de votre session Colab. (2 pts)
+Indice : il existe un fichier dans /etc/ qui contient ces informations...
+Mon OS : ____________________________________________
+Tâche C1.2 : Affichez le nom du GPU attribué à votre session, sa température actuelle et sa VRAM totale. (3 pts)
+Indice : c'est une commande que vous avez vue dans le cours sur les pilotes GPU...
+Nom GPU :Tesla T4  		Température : 45°C  		VRAM : 15360 MiB
+Tâche C1.3 : Déterminez combien d'espace disque est disponible sur votre session Colab. (1.5 pts)
+Indice : une commande Linux courte qui affiche l'espace disque en format lisible...
+Espace total : 113Go  	 Espace utilisé : 44 Go   	Espace libre : 70 Go
+Tâche C1.4 : Vérifiez que PyTorch détecte bien le GPU. Écrivez les 2 lignes Python nécessaires et donnez le résultat. (1.5 pts)
+Code utilisé :
+import torch
+print(f'PyTorch : {torch.__version__}')
+print(f'CUDA disponible : {torch.cuda.is_available()}')
+if torch.cuda.is_available():
+print(f'GPU : {torch.cuda.get_device_name(0)}')
+Résultat (True/False + nom GPU) :
+PyTorch : 2.10.0+cu128
+CUDA disponible : True
+GPU : Tesla T4
+C2 — Manipuler le système depuis Colab (6 points)
+Tâche C2.1 : Installez la bibliothèque Python 'psutil' (qui n'est PAS pré-installée sur Colab) et affichez la quantité de RAM totale en Go. (2 pts)
+Commande d'installation utilisée : !pip install psutil
+RAM totale affichée : 12.67 Go
+Tâche C2.2 : Créez un fichier texte appelé 'info_examen.txt' directement depuis le terminal Colab (avec la commande echo) contenant votre nom et la date. Puis affichez son contenu. (2 pts)
+Commandes utilisées :
+!echo "Nom: Marouane" > info_examen.txt
+!echo "Date: $(date +'%Y-%m-%d')" >> info_examen.txt
+!cat info_examen.txt
+Tâche C2.3 : Listez toutes les bibliothèques Python pré-installées sur Colab qui contiennent le mot 'torch' dans leur nom. Combien y en a-t-il ? (2 pts)
+Indice : pip list peut être combiné avec grep...
+Nombre de bibliothèques 'torch' : 8
+Listez-les :
+torch                                    2.10.0+cu128
+torchao                                  0.10.0
+torchaudio                               2.10.0+cu128
+torchcodec                               0.10.0+cu128
+torchdata                                0.11.0
+torchsummary                             1.5.1
+torchtune                                0.6.1
+torchvision                              0.25.0+cu128
+C3 — Monitoring GPU en direct (6 points)
+Tâche C3.1 : Lancez le code suivant et observez l'impact sur le GPU. Notez les métriques AVANT et APRÈS.
+Cellule Colab
+import torch
+# AVANT : exécutez nvidia-smi et notez les valeurs
+# Calcul GPU intensif
+if torch.cuda.is_available():
+x = torch.randn(5000, 5000, device='cuda')
+for i in range(100):
+x = torch.matmul(x, x)
+x = x / x.norm()
+print('Calcul terminé !')
+# APRÈS : exécutez nvidia-smi et notez les nouvelles valeurs
+Question C3.1 (3 pts) : La température a-t-elle augmenté ? La VRAM a-t-elle augmenté ? Expliquez pourquoi en une phrase.
+Réponse : Oui, la température a augmenté de 74 C à 75 C et la VRAM utilisée est passée de 3 MiB à 345 MiB après le calcul intensif exécuter.
+Question C3.2 (3 pts) : Si cette température continuait à monter et dépassait 85°C, que se passerait-il ? Quel phénomène le GPU activerait-il automatiquement pour se protéger ? (Choisissez)
+A) Le GPU augmenterait sa fréquence pour aller plus vite
+B) Le GPU activerait le throttling (réduction de fréquence) pour baisser la température
+C) Le GPU s'éteindrait immédiatement sans prévenir
+D) Rien, les GPU modernes ne surchauffent jamais
+Réponse : B
+Partie D — Pratique ML sur Colab (30 points)
+D1 — Classification avec Scikit-learn (12 points)
+Objectif : classifier le dataset Wine de Scikit-learn avec un RandomForestClassifier. Le code est partiellement fourni — complétez les parties manquantes.
+Étape 1 — Charger et séparer les données (3 pts)
+Cellule Colab
+from sklearn.datasets import load_wine
+from sklearn.model_selection import train_test_split
+wine = load_wine()
+# Complétez : séparer en train (70%) et test (30%), random_state=42
+X_train, X_test, y_train, y_test = ________________________________
+print(f'Nombre de features : {wine.data.shape[1]}')
+print(f'Nombre de classes : {len(wine.target_names)}')
+print(f'Classes : {list(wine.target_names)}')
+print(f'Train : {len(X_train)} | Test : {len(X_test)}')
+Nombre de features : 13	  Nombre de classes : 3	  Taille train : 124  Taille test : 54
+Étape 2 — Entraîner et évaluer (4 pts)
+Cellule Colab
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, classification_report
+# Complétez : créer le modèle (100 arbres, random_state=42)
+model = ________________________________
+# Complétez : entraîner le modèle
+________________________________
+# Complétez : faire des prédictions sur X_test
+predictions = ________________________________
+# Afficher la précision
+acc = accuracy_score(y_test, predictions)
+print(f'Précision : {acc:.2%}')
+print(classification_report(y_test, predictions, target_names=wine.target_names))
+Votre précision obtenue : 100 %
+Étape 3 — Visualiser les features importantes (3 pts)
+Cellule Colab
+import matplotlib.pyplot as plt
+plt.figure(figsize=(10, 5))
+plt.barh(wine.feature_names, model.feature_importances_, color='#028090')
+plt.title('Importance des features — Wine Dataset')
+plt.xlabel('Importance')
+plt.tight_layout()
+plt.show()
+Question D1 (2 pts) : selon votre graphique, quelle est la feature la PLUS importante ? Ce modèle utilise-t-il le GPU ? Pourquoi ?
+Feature la plus importante : color_intensity
+GPU utilisé ? : Non Pourquoi : on utilise la bibliothèque Scikit-learn donc c’est une implémentation basé sur le CPU seulement et n’utilise pas el GPU.
+D2 — Réseau de neurones PyTorch sur GPU (15 points)
+Objectif : construire un réseau de neurones qui classifie le dataset Digits (chiffres manuscrits 8×8 pixels) en utilisant le GPU.
+Étape 1 — Préparer les données (3 pts)
+Cellule Colab
+import torch
+import torch.nn as nn
+from sklearn.datasets import load_digits
+from sklearn.model_selection import train_test_split
+digits = load_digits()
+X = torch.FloatTensor(digits.data / 16.0)  # Normaliser entre 0 et 1
+y = torch.LongTensor(digits.target)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+# Complétez : déplacer les données sur GPU
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+X_train, X_test = X_train.to(________), X_test.to(________)
+y_train, y_test = y_train.to(________), y_test.to(________)
+print(f'Device : {device}')
+print(f'Taille image : {digits.data.shape[1]} pixels')
+print(f'Train : {len(X_train)} | Test : {len(X_test)}')
+Device affiché : cuda
+Étape 2 — Définir le modèle (3 pts)
+Cellule Colab
+# Complétez les ??? avec les bonnes dimensions
+model = nn.Sequential(
+nn.Linear(64, ???),    # entrée: 64 pixels, couche cachée 1
+nn.ReLU(),
+nn.Linear(???, ???),   # couche cachée 1, couche cachée 2
+nn.ReLU(),
+nn.Linear(???, 10)     # couche cachée 2, 10 classes (chiffres 0-9)
+).to(device)
+# Afficher le nombre de paramètres
+params = sum(p.numel() for p in model.parameters())
+print(f'Paramètres du modèle : {params:,}')
+Indice : couche cachée 1 = 128 neurones, couche cachée 2 = 64 neurones.
+Nombre de paramètres affiché : 17 226
+Étape 3 — Entraîner (5 pts)
+Cellule Colab
+import time
+criterion = nn.CrossEntropyLoss()
+optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+start = time.time()
+losses = []
+for epoch in range(50):
+optimizer.zero_grad()
+outputs = model(X_train)
+loss = criterion(outputs, y_train)
+loss.backward()
+optimizer.step()
+losses.append(loss.item())
+if (epoch+1) % 10 == 0:
+print(f'Epoch {epoch+1}/50 — Loss: {loss.item():.4f}')
+training_time = time.time() - start
+print(f'\nTemps d\'entraînement : {training_time:.2f} secondes')
+Loss à l'epoch 10 : 2.1948	Loss à l'epoch 50 : 0.8359
+Temps d'entraînement : 0.78 secondes
+Étape 4 — Évaluer et visualiser (4 pts)
+Cellule Colab
+# Précision
+model.eval()
+with torch.no_grad():
+test_outputs = model(X_test)
+_, predicted = torch.max(test_outputs, 1)
+accuracy = (predicted == y_test).sum().item() / len(y_test)
+print(f'Précision test : {accuracy:.2%}')
+# Graphique de la loss
+plt.figure(figsize=(8, 4))
+plt.plot(losses, color='#E8A317', linewidth=2)
+plt.title('Évolution de la loss pendant l\'entraînement')
+plt.xlabel('Epoch')
+plt.ylabel('Loss')
+plt.grid(True, alpha=0.3)
+plt.show()
+Votre précision test : 88.15%
+Questions D2 (répondez dans votre notebook en cellule Markdown) :
+— La loss diminue-t-elle au fil des epochs ? Que signifie cette diminution ?
+— Votre modèle utilise-t-il le GPU (cuda) ou le CPU ? Comment le savez-vous ?
+— Comparez : votre précision PyTorch est-elle meilleure, égale ou moins bonne que celle de Scikit-learn (exercice D1) ? Pourquoi ce résultat est-il logique pour un petit dataset comme Digits ?
+D3 — Question de synthèse pratique (3 points)
+Dans une cellule Markdown de votre notebook, répondez à cette question :
+Vous devez déployer votre modèle de classification (exercice D2) pour qu'il fonctionne sur le serveur de votre entreprise. Actuellement il tourne dans Colab. Quel outil utiliseriez-vous pour garantir qu'il fonctionne identiquement en production ? Expliquez en 2-3 phrases.
+Barème récapitulatif

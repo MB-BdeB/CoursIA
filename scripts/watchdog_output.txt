@@ -1,0 +1,14 @@
+[LOG - Sec 1] Température GPU: 81°C | Erreurs ECC: 0
+[LOG - Sec 2] Température GPU: 86°C | Erreurs ECC: 0
+  --> [ALERT SYSTEM] Vitesse d'horloge bridée automatiquement (Thermal Throttling)!
+[LOG - Sec 3] Température GPU: 85°C | Erreurs ECC: 0
+  --> [ALERT SYSTEM] Vitesse d'horloge bridée automatiquement (Thermal Throttling)!
+[LOG - Sec 4] Température GPU: 84°C | Erreurs ECC: 0
+  --> [ALERT SYSTEM] Vitesse d'horloge bridée automatiquement (Thermal Throttling)!
+[LOG - Sec 5] Température GPU: 86°C | Erreurs ECC: 0
+  --> [ALERT SYSTEM] Vitesse d'horloge bridée automatiquement (Thermal Throttling)!
+[LOG - Sec 6] Température GPU: 80°C | Erreurs ECC: 4
+[LOG - Sec 7] Température GPU: 83°C | Erreurs ECC: 8
+  --> [ALERT SYSTEM] Vitesse d'horloge bridée automatiquement (Thermal Throttling)!
+[LOG - Sec 8] Température GPU: 78°C | Erreurs ECC: 12
+  --> [CRITICAL ERROR] Trop d'erreurs ECC ! Isolation du nœud et basculement du calcul.
